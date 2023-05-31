@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Traveling Dutchman</title>
+        <!-- DK logo -->
+        <link rel="icon" type="image/png" sizes="32x32" href="../../travelingdutchman/images/LOGO_DK.png">
+        <!-- Remix icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- menu tap icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="../../travelingdutchman/css/main.css">
+        <!-- Menubar styles -->
+        <link rel="stylesheet" href="../../travelingdutchman/css/stylesbar.css">
+    </head>
+    <body>
+        <!-- Header/menu-->
+        <div w3-include-html="../../travelingdutchman/layout/menu.html"></div>
+        
+        <!-- Most resent trips-->
+        <div w3-include-html="../../travelingdutchman/layout/index/resent_trips.html"></div>
+
+        <!-- Latest Blogs -->
+        <div w3-include-html="../../travelingdutchman/layout/index/latest_blogs.html"></div>
+
+        <!-- Newsletter -->
+        <div w3-include-html="../../travelingdutchman/layout/newsletter.html"></div>
+
+        <!-- Footer -->
+        <div w3-include-html="../../travelingdutchman/layout/footer.html"></div>
+
+        <!-- JavaScript include function -->
+        <script src="../../travelingdutchman/js/include.js"></script>
+        <script>
+            includeHTML();
+        </script>
+    </body>
+</html>
