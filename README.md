@@ -1,6 +1,3 @@
-# travelingdutchman
-blog webiste
-
 # YOUR PROJECT TITLE: Blogger website called Traveling Dutchman
 #### Video Demo:  <URL="https://www.youtube.com/watch?v=TV6heV2QEhg">
 #### Description:

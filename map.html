@@ -10,6 +10,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="../../images/LOGO_DK.png">
         <!-- menu tap icon-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Remix icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <!-- Custom styles -->
         <link rel="stylesheet" href="../../css/main.css">
         <!-- Menubar styles -->
@@ -17,15 +19,30 @@
     </head>
     <body>
         <!-- Header/menu-->
-        <div w3-include-html="../../layout/menu.html"></div>
+        <div template="../../layout/menu.html"></div>
         
+        <!-- Top function -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <!-- Title -->
+        <section class="a-blog-h-offset blog-post-container container">
+            <div class="">
+                <div class="blog-post-data">
+                    <h3 class="title blog-post-title">Map</h3>
+                    <br>
+                </div>
+            </div>
+        </section>
+
         <!-- Google maps chart -->
         <iframe src="https://www.google.com/maps/d/u/1/embed?mid=13v49imZfBsE2C6kLa9Gn4hgKFCBb4u8&ehbc=2E312F" width="100%" height="700"></iframe>        
         
         <!-- Footer -->
-        <div w3-include-html="../../layout/footer.html"></div>
+        <div template="../../layout/footer.html"></div>
 
         <!-- JavaScript include function -->
+        <script src="../js/swiper.js"></script>
+        <script src="../../js/main.js"></script>
         <script src="../../js/include.js"></script>
         <script>
             includeHTML();

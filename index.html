@@ -19,21 +19,26 @@
     </head>
     <body>
         <!-- Header/menu-->
-        <div w3-include-html="../../layout/menu.html"></div>
-        
+        <div template="../../layout/menu.html"></div>
+
+        <!-- Top function -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         <!-- Most resent trips-->
-        <div w3-include-html="../../layout/index/resent_trips.html"></div>
+        <div template="../../layout/index/resent_trips.html"></div>
 
         <!-- Latest Blogs -->
-        <div w3-include-html="../../layout/index/latest_blogs.html"></div>
+        <div template="../../layout/index/latest_blogs.html"></div>
 
-        <!-- Newsletter -->
-        <div w3-include-html="../../layout/newsletter.html"></div>
-
+        <!-- Newsletter
+        <div template="../../layout/newsletter.html"></div>
+        -->
         <!-- Footer -->
-        <div w3-include-html="../../layout/footer.html"></div>
+        <div template="../../layout/footer.html"></div>
 
         <!-- JavaScript include function -->
+        <script src="../js/swiper.js"></script>
+        <script src="../../js/main.js"></script>
         <script src="../../js/include.js"></script>
         <script>
             includeHTML();

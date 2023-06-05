@@ -19,8 +19,15 @@
     </head>
 <body>
 
-    <div w3-include-html="../layout/menu.html"></div>
+    <div template="../layout/menu.html"></div>
 
+    <!-- Buttons, previous next -->
+    <a href="4.html" class="navbar-next previous">&#8249;</a>
+    <a href="6.html" class="navbar-next next">&#8250;</a>
+
+    <!-- Top function -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
     <!-- Title and date -->
     <section class="a-blog-h-offset">
         <div class="blog-post-container container">
@@ -74,11 +81,9 @@
             Hi everybody! How do you do?
             <br><br>
             Today was the day, we didn't do much except go to the buffet. Yesterday was a long night so we weren't too excited for an early morning. Before anyone was ready to go out, I took a walk to a nearby park to relax a bit and went back to the hotel.
-            <br><br>
             Even though, if we wanted to do an activity, almost everything was closed until at least 4 pm. In the afternoon Marty and I went for a walk looking for lunch and we ended up at our hero, a small store with only overpriced stuff and sweets... It was a healthy lunch...
             <br><br>
             After about an hour and a half of walking in search of food, it started to rain heavily. Spoiler alert, it was the first and last moment of this vacation!!!
-            <br><br>
             Some time later we went to a restaurant called Yaso Lamen & Gyoza. Everyone had a different dish of Ramen and it all tasted amazing! But the amount was staggering, so much food, we couldn't handle it and had a lot of leftovers... For dessert there was a little muchi and a double espresso (nam-nam-nam).
             <br><br>
             Till tomorrow!
@@ -88,10 +93,10 @@
 
 
     <!-- Author -->
-    <div w3-include-html="../layout/author.html"></div>
+    <div template="../layout/author.html"></div>
 
     <!-- Footer -->
-    <div w3-include-html="../layout/footer.html"></div>
+    <div template="../layout/footer.html"></div>
 
     <!--swiper.js-->
     <script src="../js/swiper.js"></script>

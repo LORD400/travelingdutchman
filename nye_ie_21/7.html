@@ -19,7 +19,14 @@
 </head>
 <body>
     <!-- Header -->
-    <div w3-include-html="../layout/menu.html"></div>
+    <div template="../layout/menu.html"></div>
+
+    <!-- Buttons, previous next -->
+    <a href="6.html" class="navbar-next previous">&#8249;</a>
+    <a href="#" class="navbar-next next">&#8250;</a>
+
+    <!-- Top function -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!-- Title and date -->
     <section class="a-blog-h-offset">
@@ -92,10 +99,10 @@
 
 
     <!-- Author -->
-    <div w3-include-html="../layout/author.html"></div>
+    <div template="../layout/author.html"></div>
 
     <!-- Footer -->
-    <div w3-include-html="../layout/footer.html"></div>
+    <div template="../layout/footer.html"></div>
 
     <!--swiper.js-->
     <script src="../js/swiper.js"></script>
