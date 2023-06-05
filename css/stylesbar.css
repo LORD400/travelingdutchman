@@ -1,7 +1,26 @@
-.navbar {
+.navbar-title {
+  width: 100%;
   overflow: hidden;
   background-color: #252830;
+  border-radius: 12px;
+}
 
+.navbar-title a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+
+
+}
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  background-color: #252830;
+  border-radius: 12px;
 }
 
 .navbar a {
@@ -9,13 +28,19 @@
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
+  border-radius: 12px;
+  width: 25%;
+
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
+  border-radius: 12px;
+  width: 25%;
+
 }
 
 .dropdown .dropbtn {
@@ -28,10 +53,14 @@
   font-family: inherit;
   margin: 0;
   z-index: 0;
+  border-radius: 12px;
+  width: 100%;
+
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #131417;
+
 }
 
 .dropdown-content {
@@ -41,6 +70,8 @@
   min-width: 160px;
   box-shadow: #131417;
   z-index: 9999;
+  border-radius: 12px;
+  width: 25%;
 }
 
 .dropdown-content a {
@@ -51,10 +82,21 @@
   display: block;
   text-align: center;
   z-index: 9999;
+  border-radius: 12px;
+  width: 100%;
 }
 
 
 .dropdown:hover .dropdown-content {
   display: block;
+  border-radius: 12px;
+
 }
 
+.navbar-next {
+  width: 100%;
+  overflow: hidden;
+  background-color: #252830;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
