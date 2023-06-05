@@ -82,6 +82,7 @@ body.light-theme{
     max-width: 160rem;
     margin: 0 auto;
     padding: 0 1.5rem;
+    border-radius: 12px;
 }
 
 .place-items-center{
@@ -544,3 +545,26 @@ body.light-theme{
     }
 
 }
+.button-prev-next {
+    background-color: #252830;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+    
+
+  }
+  .previous {
+    position: 80%;
+    
+  }
+  .next {
+    right: 10px;
+  }
