@@ -1,69 +1,47 @@
-    <!-- Most resent trips -->
-    <section class="a-blog-h-offset">
-        <h2 class="title start-title section-title" data-name="Journeys">Journeys</h2>
-    </section>
-    <section class="a-blog section">
-        <div class="a-blog-container container d-grid">
+<!DOCTYPE html>
 
-            <div class="a-theme d-grid">
-                <div class="headline-banner">
-                    <br>
-                    <h3 class="headline">
-                        <span class="place-items-center">Upcoming journey(s):</span>
-                    </h3>
-                    <span>
-                        Backpacking through Europe from June 14th to July 28th</span>
-                </div>
-            
-                <a href="../trips/backpacking_eu.html" class="article a-blog featured-article-1">
-                    <img src="../images/backpacking_eu/1.1.jpg" alt="" class="article-image">
-                    <div class="article-data-container">
-                        <div class="article-data">
-                            <span>14th Jun 2023 - 28th Jul 2023</span>
-                            <span class="article-data-spacer"></span>
-                            <span>BE-LU-FR-CH-DE-SI-HR-HU-SK-AT-CZ-PL</span>
-                        </div>
-                        <h3 class="title article-title">Backpacking through Europe</h3>
-                    </div>
-                </a>
-            
-                <a href="../trips/nye_pg_22.html" class="article a-blog featured-article-1">
-                    <img src="../images/nye_pg_22/7.1.jpg" alt="" class="article-image">
-                    <div class="article-data-container">
-                        <div class="article-data">
-                            <span>28th Dec 2022 - 4th Jan 2023</span>
-                            <span class="article-data-spacer"></span>
-                            <span>Portugal</span>
-                        </div>
-                        <h3 class="title article-title">Celebrating New Years Eve in Lisbon</h3>
-                    </div>
-                </a>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Traveling Dutchman</title>
+        <!-- DK logo -->
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/LOGO_DK.png">
+        <!-- Remix icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- menu tap icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="../../css/main.css">
+        <!-- Menubar styles -->
+        <link rel="stylesheet" href="../../css/stylesbar.css">
+    </head>
+    <body>
+        <!-- Header/menu-->
+        <div template="../../layout/menu.html"></div>
 
-                <a href="../trips/denmark.html" class="article a-blog featured-article-2">
-                    <img src="../images/denmark/2.1.jpg" alt="" class="article-image">
-                    <div class="article-data-container">
+        <!-- Top function -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-                        <div class="article-data">
-                            <span>20th - 26th Aug 2022</span>
-                            <span class="article-data-spacer"></span>
-                            <span>Denmark & Sweden</span>
-                        </div>
-                        <h3 class="title article-title">City Trip: Copenhagen and Mälmo</h3>
-                    </div>
-                </a>
-                <!--
-                <a href="../trips/germany.html" class="article a-blog featured-article-3">
-                    <img src="../images/germany/3.2.jpg" alt="" class="article-image">
-                    <div class="article-data-container">
-                        <div class="article-data">
-                            <span>28th Jul 4th Aug 2022</span>
-                            <span class="article-data-spacer"></span>
-                            <span>Germany</span>
-                        </div>
-                        <h3 class="title article-title">City Trip: Berlin</h3>
-                    </div>
-                </a>
-                -->
-            </div>
-        </div>
-    </section>
+        <!-- Most resent trips-->
+        <div template="../../layout/index/resent_trips.html"></div>
+
+        <!-- Latest Blogs -->
+        <div template="../../layout/index/latest_blogs.html"></div>
+
+        <!-- Newsletter
+        <div template="../../layout/newsletter.html"></div>
+        -->
+        <!-- Footer -->
+        <div template="../../layout/footer.html"></div>
+
+        <!-- JavaScript include function -->
+        <script src="../js/swiper.js"></script>
+        <script src="../../js/main.js"></script>
+        <script src="../../js/include.js"></script>
+        <script>
+            includeHTML();
+        </script>
+    </body>
+</html>
